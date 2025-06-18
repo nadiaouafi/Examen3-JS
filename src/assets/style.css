@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 1.5em;
+  font-size: x-small;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+/* Style du lien actif */
+.nav-link.active {
+  color: blue;
+  font-weight: bold;
+  border-bottom: 2px solid blue;
+}
