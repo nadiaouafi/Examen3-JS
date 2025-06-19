@@ -1,0 +1,23 @@
+1-/ Vite est un serveur de développement conçu pour les applications web modernes.fonctionne parfaitement avec Vanilla JS et avec dautres frame works.
+# Avantages :
+    -Démarrage instantané même pour les projets volumineux.
+    -Rechargement à chaud ultra-rapide , Le HMR est extrêmement rapide, ce qui améliore la productivité des développeurs.
+    -Configuration simple .
+
+
+2-/  commande
+    npm create vite@latest nom-du-projet -- --template vanilla.
+
+3-/  Pour lancer le serveur de développement avec Vite 
+    npm run dev
+
+4-/  role de vite.config.js  
+    Il te permet de personnaliser un projet Vite par défaut à un projet adapté à nos besoins.
+
+5-/ la différence entre npm run dev et npm run build 
+    -npm run dev => -Démarre un serveur local de développement.
+                    -Utilisé pendant que le developpement du projet.
+
+
+    -npm run build => -Lance un build complet optimisé pour la mise en ligne.
+                     -optimise le code, supprime les commentaires, optimise les performances.
